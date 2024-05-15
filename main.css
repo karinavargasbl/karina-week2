@@ -1,0 +1,57 @@
+header {
+    background-color: rgb(134, 38, 224);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.box {
+    padding:15px;
+    background-color: aqua;
+    text-align: center;
+    margin-right: 20px;
+    border: 2px solid rgb(219, 87, 193);
+}
+
+.box:nth-child(2) {
+    order: 3;
+  }
+.box:nth-child(3) {
+    order: 2;
+}
+
+/* Second row */
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.box2 {
+    padding:15px;
+    background-color: aqua;
+    text-align: center;
+    margin-right: 20px;
+    border: 2px solid rgb(219, 87, 193);
+}
+
+.box2:nth-child(3) {
+    order: 1;
+  }
+.box2:nth-child(2) {
+    order: 4;
+}
+.box2:nth-child(4) {
+    order: 2;
+}
+
